@@ -37,7 +37,7 @@ async def wiki_cmd(message: Message):
         await message.answer(f"Wikipeadiadan javob: \n\n{wiki_answer}")
 
     except Exception as error:
-        await message.answer(f"Botda xatolik bo'ldi: {error}")
+        await message.answer(f"Iltimos boshqa so'rov kiriting")
     
 
 
